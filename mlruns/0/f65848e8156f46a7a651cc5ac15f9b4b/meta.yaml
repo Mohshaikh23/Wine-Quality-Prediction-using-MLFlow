@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/END%20TO%20END%20ML%20PROJECT/Wine-Quality-Prediction-using-MLFlow/mlruns/0/f65848e8156f46a7a651cc5ac15f9b4b/artifacts
+end_time: 1694196143269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f65848e8156f46a7a651cc5ac15f9b4b
+run_name: angry-gull-901
+run_uuid: f65848e8156f46a7a651cc5ac15f9b4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694196138613
+status: 3
+tags: []
+user_id: mohsi

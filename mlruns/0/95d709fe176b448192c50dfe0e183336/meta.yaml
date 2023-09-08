@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/END%20TO%20END%20ML%20PROJECT/Wine-Quality-Prediction-using-MLFlow/mlruns/0/95d709fe176b448192c50dfe0e183336/artifacts
+end_time: 1694195484956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95d709fe176b448192c50dfe0e183336
+run_name: defiant-gnat-911
+run_uuid: 95d709fe176b448192c50dfe0e183336
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694195476991
+status: 3
+tags: []
+user_id: mohsi

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/END%20TO%20END%20ML%20PROJECT/Wine-Quality-Prediction-using-MLFlow/mlruns/0/d6a83e13cbd14102b599c153b23a1091/artifacts
+end_time: 1694196119520
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6a83e13cbd14102b599c153b23a1091
+run_name: upbeat-goat-154
+run_uuid: d6a83e13cbd14102b599c153b23a1091
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694196115571
+status: 3
+tags: []
+user_id: mohsi

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/END%20TO%20END%20ML%20PROJECT/Wine-Quality-Prediction-using-MLFlow/mlruns/0/78e204d33bf7451ebedbd510cb19077a/artifacts
+end_time: 1694196065674
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 78e204d33bf7451ebedbd510cb19077a
+run_name: rumbling-shad-35
+run_uuid: 78e204d33bf7451ebedbd510cb19077a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694196061200
+status: 3
+tags: []
+user_id: mohsi
