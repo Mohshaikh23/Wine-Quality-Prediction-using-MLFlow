@@ -32,7 +32,7 @@ Before running the project, make sure you have the following prerequisites insta
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/wine-quality-prediction.git
+   git clone https://github.com/Mohshaikh23/Wine-Quality-Prediction-using-MLFlow.git
    cd wine-quality-prediction
    ```
 
@@ -82,6 +82,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The authors of the Wine Quality dataset for their valuable contributions to the field of data mining.
 
 Feel free to contribute to this project by opening issues or submitting pull requests. Happy modeling!
-```
-
-Make sure to replace `"https://github.com/your-username/wine-quality-prediction.git"` with the actual URL of your GitHub repository. You can also customize the README further to include specific details about your project and any additional information you find relevant.
