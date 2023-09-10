@@ -36,6 +36,17 @@ Before running the project, make sure you have the following prerequisites insta
    cd wine-quality-prediction
    ```
 
+   for dagshub: 
+
+   ```bash
+      
+      set MLFLOW_TRACKING_URI=https://dagshub.com/Mohshaikh23/Wine-Quality-Prediction-using-MLFlow.mlflow
+
+      set MLFLOW_TRACKING_USERNAME=Mohshaikh23
+
+      set MLFLOW_TRACKING_PASSWORD=your_password
+   ```
+
 2. Install the required packages:
 
    ```bash

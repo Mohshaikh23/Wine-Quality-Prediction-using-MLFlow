@@ -75,9 +75,13 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
-        predictions = lr.predict(train_x)
-        signature = infer_signature(train_x, predictions)
-
+        # predictions = lr.predict(train_x)
+        # signature = infer_signature(train_x, predictions)
+        
+        remote_server_uri = "https://dagshub.com/Mohshaikh23/Wine-Quality-Prediction-using-MLFlow.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
+        
+        
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store
@@ -87,7 +91,12 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
-            )
+                lr, "model", registered_model_name="ElasticnetWineModel"
+            ) #signature=signature
         else:
-            mlflow.sklearn.log_model(lr, "model", signature=signature)
+            mlflow.sklearn.log_model(lr, "model") #signature=signature
+
+# set MLFLOW_TRACKING_URI=https://dagshub.com/Mohshaikh23/Wine-Quality-Prediction-using-MLFlow.mlflow \
+# set MLFLOW_TRACKING_USERNAME=Mohshaikh23 \
+# set MLFLOW_TRACKING_PASSWORD=your password \
+# python script.py
